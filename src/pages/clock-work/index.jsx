@@ -3,7 +3,7 @@ import SectionTitle from "../../components/SectionTitle";
 import Topic from "../../components/Topic";
 import DarkSection from "../../components/DarkSection";
 
-const assetsBasePath = "/assets/clock-work/";
+const assetsBasePath = "assets/clock-work/";
 
 const InfoData = [
   {
@@ -210,7 +210,7 @@ const Clockwork = () => {
       />
 
       <section className="research" style={{ background: "#FFF" }}>
-        <div className="container pt-4 pb-4">
+        <div className="container pt-4 pb-4 mt-4">
           <SectionTitle title="User Research" pageNo="005" />
           <div className="row mt-4 pt-2" style={{ rowGap: 80 }}>
             <div className="topic-title col-lg-6">
