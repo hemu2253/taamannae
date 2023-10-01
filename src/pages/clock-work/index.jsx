@@ -24,7 +24,12 @@ const InfoData = [
   },
   {
     title: "Team",
-    content: "Ruslan Polischuk - Designer, Anton Rorikov - Designer",
+    content: (
+      <span>
+        <div>Ruslan Polischuk - Designer</div>
+        <div className="mt-2">Anton Rorikov - Designer</div>
+      </span>
+    ),
   },
 ];
 
@@ -327,7 +332,7 @@ const Clockwork = () => {
         topicName="Site Map"
         topicTitle={<span>Site Map</span>}
         pageNo="010"
-        description="The next step in my design process was visualizing how the product would be structured. Because users tend to sit down and strategically plan where their next home will be, this led me to create a website rather than something like a mobile application, for example.With this in mind, I shifted priority towards a desktop or laptop computer and created a sitemap that illustrates the main user flow of the product."
+        description="The next step in my design process was visualizing how the product would be structured  and created a sitemap that illustrates the main user flow of the product. Because users tend to sit down and strategically plan where their next home will be, this led me to create a website rather than something like a mobile application, for example.With this in mind, I shifted priority towards a desktop or laptop computer and created a sitemap that illustrates the main user flow of the product."
         imagePath={`${assetsBasePath}site-map.png`}
       />
 
