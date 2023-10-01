@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "1f161a7e4333fd2dee6b",
+    "revision": "f59808824113a33bb472",
     "url": "/taamannae/static/css/main.debec1db.chunk.css"
   },
   {
-    "revision": "1f161a7e4333fd2dee6b",
-    "url": "/taamannae/static/js/main.57ba0c51.chunk.js"
+    "revision": "f59808824113a33bb472",
+    "url": "/taamannae/static/js/main.e22a4df8.chunk.js"
   },
   {
     "revision": "ab6e7e57e7051178aeb2",
     "url": "/taamannae/static/js/runtime~main.d6c28a24.js"
   },
   {
-    "revision": "1cb52d72ef6183d8c260",
-    "url": "/taamannae/static/js/2.a4a381d0.chunk.js"
+    "revision": "44faac0ee20b33e2fe2d",
+    "url": "/taamannae/static/js/2.0a897c2e.chunk.js"
   },
   {
     "revision": "09ddd3a579e7e0bbcdbc",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/taamannae/static/js/4.85a5d7cb.chunk.js"
   },
   {
-    "revision": "a76805bd32d8dd606d92282c487107e4",
+    "revision": "f3daaf8b4b4c45e43b700529b783cb22",
     "url": "/taamannae/index.html"
   }
 ];
