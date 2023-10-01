@@ -18,7 +18,7 @@ const Topic = ({
             <div className="topic-desc col-lg-8">{description}</div>
             {imagePath ? (
               <div className="my-5 d-flex justify-content-center">
-                <img style={{ width: "100%" }} src={imagePath} />
+                <img alt="img" style={{ width: "100%" }} src={imagePath} />
               </div>
             ) : null}
           </div>

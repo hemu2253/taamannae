@@ -167,8 +167,9 @@ function Clockwork() {
       </div>
       <section className="pic">
         <img
+          alt="img"
           style={{ width: "100%" }}
-          src={`${assetsBasePath}section-fluid.svg`}
+          src={`${assetsBasePath}section-fluid.png`}
         />
       </section>
 
@@ -246,9 +247,10 @@ function Clockwork() {
           </div>
         </div>
         <img
+          alt="img"
           className="my-5"
           style={{ width: "100%" }}
-          src={`${assetsBasePath}metrics.svg`}
+          src={`${assetsBasePath}metrics.png`}
         />
       </section>
 
@@ -269,7 +271,7 @@ function Clockwork() {
         points and motivations while working on the job.This persona was
         referred to throughout the entire product design life cycle in
         order to remain focused when making design decisions."
-        imagePath={`${assetsBasePath}persona.svg`}
+        imagePath={`${assetsBasePath}persona.png`}
       />
 
       <Topic
@@ -286,7 +288,7 @@ function Clockwork() {
         necessary steps involved in the user's journey and document some
         of the most common emotions and problems they'll likely
         experience during each of these steps."
-        imagePath={`${assetsBasePath}journey.svg`}
+        imagePath={`${assetsBasePath}journey.png`}
       />
 
       <Topic
@@ -326,7 +328,7 @@ function Clockwork() {
         topicTitle={<span>Site Map</span>}
         pageNo="010"
         description="The next step in my design process was visualizing how the product would be structured. Because users tend to sit down and strategically plan where their next home will be, this led me to create a website rather than something like a mobile application, for example.With this in mind, I shifted priority towards a desktop or laptop computer and created a sitemap that illustrates the main user flow of the product."
-        imagePath={`${assetsBasePath}site-map.svg`}
+        imagePath={`${assetsBasePath}site-map.png`}
       />
 
       <Topic
@@ -334,7 +336,7 @@ function Clockwork() {
         topicTitle={<span>Task Flow</span>}
         pageNo="011"
         description="Having a sitemap, I created a task flow to visually represent the sequence of steps a user takes to achieve a specific goal within the application."
-        imagePath={`${assetsBasePath}task-flow.svg`}
+        imagePath={`${assetsBasePath}task-flow.png`}
       />
 
       <Topic
@@ -363,7 +365,7 @@ function Clockwork() {
             </ul>
           </span>
         }
-        imagePath={`${assetsBasePath}testing.svg`}
+        imagePath={`${assetsBasePath}testing.png`}
       />
       <footer>
         <DarkSection
