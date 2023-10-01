@@ -1,6 +1,6 @@
 {
   "name": "taamannae",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://hemu2253.github.io/taamannae",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "browserslist": {
     "production": [
@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "gh-pages": "^6.0.0"
   }
 }

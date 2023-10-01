@@ -55,7 +55,7 @@ const researchMenuItems = [
   },
 ];
 
-function Clockwork() {
+const Clockwork = () => {
   return (
     <div
       className="container-fluid"
@@ -399,6 +399,6 @@ function Clockwork() {
       </footer>
     </div>
   );
-}
+};
 
 export default Clockwork;
