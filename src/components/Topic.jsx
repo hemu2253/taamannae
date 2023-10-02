@@ -7,6 +7,8 @@ const Topic = ({
   topicTitle,
   description,
   imagePath = "",
+  imagePath2 = "",
+  content = null,
 }) => {
   return (
     <section className={topicName} style={{ background: "#FFF" }}>
@@ -17,10 +19,16 @@ const Topic = ({
             <div className="topic-title col-lg-4">{topicTitle}</div>
             <div className="topic-desc col-lg-8">{description}</div>
             {imagePath ? (
-              <div className="my-5 d-flex justify-content-center">
+              <div className="my-2 d-flex justify-content-center">
                 <img alt="img" style={{ width: "100%" }} src={imagePath} />
               </div>
             ) : null}
+            {imagePath2 ? (
+              <div className="d-flex justify-content-center">
+                <img alt="img" style={{ width: "100%" }} src={imagePath2} />
+              </div>
+            ) : null}
+            {content ? content : null}
           </div>
         </div>
       </div>

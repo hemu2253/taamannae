@@ -4,6 +4,7 @@ import NotFound from "./components/NotFound";
 
 const Clockwork = lazy(() => import("./pages/clock-work"));
 const HomeSeeker = lazy(() => import("./pages/home-seeker"));
+const BrightMinds = lazy(() => import("./pages/bright-minds"));
 
 class Routes extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class Routes extends React.Component {
           <Redirect exact from="/" to="/clock-work" />
           <Route path="/clock-work" component={Clockwork} />
           <Route path="/home-seeker" component={HomeSeeker} />
+          <Route path="/bright-minds" component={BrightMinds} />
           <Route component={NotFound} />
         </Switch>
       </Suspense>
