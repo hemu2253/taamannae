@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "../../styles/home.css";
 import SectionTitle from "../../components/SectionTitle";
 import { HashScroll } from "react-hash-scroll";
+import { useHistory } from "react-router-dom";
 
 const assetsBasePath = "assets/home/";
 
@@ -14,6 +15,7 @@ const scrollableContent = [
 ];
 
 const Home = () => {
+  const history = useHistory();
   const isMobile = window.innerWidth <= 991;
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
@@ -90,50 +92,15 @@ const Home = () => {
           <SectionTitle title="Work" pageNo="001" />
 
           <div className="home projects">
-            <div className="home home-project rom light-in-dark">
-              <div className="homes info rom light-in-dark">
-                <div>
-                  <h2 className="homes internships rom light-in-dark">
-                    Museum AR/VR
-                  </h2>
-                  <p className="homes para rom light-in-dark">
-                    Case Study • Product &amp; Brand Design • Personal Project
-                  </p>
-                </div>
-              </div>
-              <div className="rom-vid">
-                <video autoPlay width="100%" className="span-3" loop="">
-                  <source
-                    src={`${assetsBasePath}romHome.mp4`}
-                    type="video/mp4"
-                  />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
-            <div className="home home-project menti light-in-dark">
-              <div className="homes info menti light-in-dark">
-                <div>
-                  <h2 className="homes internships menti light-in-dark">
-                    Menti
-                  </h2>
-                  <p className="homes para menti light-in-dark">
-                    Overview • School • Coded Prototype
-                  </p>
-                </div>
-              </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <img
-                  className="homes image-inner menti light-in-dark"
-                  src={`${assetsBasePath}men-dash.png`}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="home home-project meta light-in-dark">
+            <div
+              className="home home-project meta light-in-dark"
+              onClick={() => history.push("/clock-work")}
+            >
               <div className="homes info meta light-in-dark">
                 <div>
-                  <h2 className="homes internships meta light-in-dark">Meta</h2>
+                  <h2 className="homes internships meta light-in-dark">
+                    Clock Work
+                  </h2>
                   <p className="homes para meta light-in-dark">
                     Overview • Internship • Product Design
                   </p>
@@ -147,10 +114,13 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="home home-project mi-sched">
+            <div
+              className="home home-project mi-sched"
+              onClick={() => history.push("/home-seeker")}
+            >
               <div className="homes info mi-sched">
                 <div>
-                  <h2 className="homes internships mi-sched">MI Scheduler</h2>
+                  <h2 className="homes internships mi-sched">Home Seeker</h2>
                   <p className="homes para mi-sched">
                     Product Design • Personal Project • Shipped
                   </p>
@@ -164,11 +134,14 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="home home-project finary light-in-dark">
+            <div
+              className="home home-project finary light-in-dark"
+              onClick={() => history.push("/bright-minds")}
+            >
               <div className="homes info finary light-in-dark">
                 <div>
                   <h2 className="homes internships finary light-in-dark">
-                    Finary{" "}
+                    Bright Minds{" "}
                     <span role="img" aria-label="icon">
                       🔒
                     </span>
@@ -182,100 +155,6 @@ const Home = () => {
                 <img
                   className="homes image-inner finary light-in-dark"
                   src={`${assetsBasePath}finhome.jpg`}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="home home-project movingchar light-in-dark">
-              <div className="homes info movingchar light-in-dark">
-                <div>
-                  <h2 className="homes internships movingchar light-in-dark">
-                    Blueprint
-                  </h2>
-                  <p className="homes para movingchar light-in-dark">
-                    Product Design • Branding • Overview • Volunteer
-                  </p>
-                </div>
-              </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <img
-                  className="homes image-inner movingchar light-in-dark"
-                  src={`${assetsBasePath}blueprint.jpg`}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="home home-project bsc">
-              <div className="homes info bsc">
-                <div>
-                  <h2 className="homes internships bsc">
-                    Boston Scientific{" "}
-                    <span role="img" aria-label="icon">
-                      🔒
-                    </span>
-                  </h2>
-                  <p className="homes para bsc">
-                    Design System • Contract • Case Study
-                  </p>
-                </div>
-              </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <img
-                  className="homes image-inner bsc"
-                  src={`${assetsBasePath}bsc-top.png`}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="home home-project potluck">
-              <div className="homes info potluck">
-                <div>
-                  <h2 className="homes internships potluck">Potluck</h2>
-                  <p className="homes para potluck">
-                    Product Design • Case Study • Freelance
-                  </p>
-                </div>
-              </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <img
-                  className="homes image-inner potluck"
-                  src={`${assetsBasePath}potluck-top.png`}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="home home-project wish">
-              <div className="homes info wish">
-                <div>
-                  <h2 className="homes internships wish">Wish</h2>
-                  <p className="homes para wish">
-                    Product Design • Case Study • Internship
-                  </p>
-                </div>
-              </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <img
-                  className="homes image-inner wish"
-                  src={`${assetsBasePath}Home.png`}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="home home-project wish-dc">
-              <div className="homes info wish-dc">
-                <div>
-                  <h2 className="homes internships wish-dc">
-                    Wish Design Exercise
-                  </h2>
-                  <p className="homes para wish-dc">
-                    Product Design • Design Challenge
-                  </p>
-                </div>
-              </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <img
-                  className="homes image-inner wish-dc"
-                  src={`${assetsBasePath}wishdc-top.png`}
                   alt=""
                 />
               </div>
