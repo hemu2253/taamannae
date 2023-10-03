@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1e0c820da8b7742c59a4",
+    "revision": "c54dd7f14668a283f141",
     "url": "/taamannae/static/css/main.d4ded617.chunk.css"
   },
   {
-    "revision": "1e0c820da8b7742c59a4",
-    "url": "/taamannae/static/js/main.a11f694f.chunk.js"
+    "revision": "c54dd7f14668a283f141",
+    "url": "/taamannae/static/js/main.24ebad55.chunk.js"
   },
   {
     "revision": "91dce85c27d772c2c9be",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/taamannae/static/js/7.5d873537.chunk.js"
   },
   {
-    "revision": "b044295c59bb3cbbb87c7e381de14dcd",
+    "revision": "c8cb4f32ce6d51bf22c3e60de06a53ed",
     "url": "/taamannae/index.html"
   }
 ];
