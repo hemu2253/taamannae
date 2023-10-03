@@ -53,7 +53,7 @@ const Header = () => {
         <div className="hidden-brand">
           <a href="/" className="navbar-brand">
             <span className="brand">
-              <img className="brand_logo" alt="logo" src="/logo.svg" />
+              <img className="brand_logo" alt="logo" src="logo.svg" />
             </span>
           </a>
         </div>
