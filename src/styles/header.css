@@ -1,0 +1,165 @@
+.navbar {
+  background: #fff;
+  width: 100%;
+  z-index: 99999999;
+  font-weight: 600;
+  font-family: manrope, sans-serif;
+  padding: 0;
+  border-bottom: 1px solid #d6d6db;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 0 32px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  padding: 0;
+  flex: 0 1;
+  margin: 0 32px;
+}
+
+.nav-link {
+  font-family: manrope, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  padding: 0 16px !important;
+}
+
+.navbar-nav {
+  align-items: center;
+  margin: auto;
+  padding: 34px;
+  column-gap: 4px;
+}
+
+.navbar-nav .active {
+  align-items: center;
+  border: 0;
+}
+
+.navbar-light .navbar-toggler {
+  color: var(--darkPrimary);
+  border: none;
+}
+
+.hidden-brand {
+  display: none;
+}
+
+.hidden-brand .navbar-brand {
+  margin: 0;
+  padding: 24px 0;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+  background: #eee;
+  border-radius: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  padding: 10px 20px !important;
+}
+
+.navbar :global(.navbar-collapse) {
+  text-align: left;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  color: #000;
+  font-weight: 600 !important;
+  border-bottom: none !important;
+  background: #ededed;
+  color: #000 !important;
+  border-radius: 1000px;
+}
+
+.brand_logo {
+  width: 48px;
+}
+
+:global(.navbar-toggler-icon) {
+  color: #00f;
+}
+
+:global(.nav-link) {
+  padding: 0 1.5rem !important;
+}
+
+:global(.navbar-light .navbar-nav .nav-link) {
+  color: #303a49;
+}
+
+:global(.navbar-toggler) {
+  background-color: #fff !important;
+}
+
+@media screen and (max-width: 1501px) {
+  :global(.navbar-nav) {
+    background-color: #fff !important;
+    border-radius: 100px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-nav .navbar-brand {
+    display: none;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    border-bottom: none;
+    padding: 16px 24px !important;
+  }
+
+  .hidden-brand,
+  .nav-button.toggle-mob {
+    display: block;
+  }
+
+  .nav-button.toggle-mob {
+    display: block;
+  }
+
+  .collapse.show,
+  .collapsing {
+    background: hsla(0, 0%, 100%, 0.9333333333333333);
+    margin: 10px -40px;
+  }
+
+  .navbar :global(.navbar-brand) {
+    float: left;
+  }
+
+  .navbar :global(.navbar-toggler) {
+    float: right;
+  }
+
+  .navbar :global(.navbar-collapse) {
+    clear: both;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .navbar-nav {
+    text-align: left;
+  }
+
+  .navbar-nav a {
+    padding: 8px 0 !important;
+  }
+}

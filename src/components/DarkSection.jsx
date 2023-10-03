@@ -16,16 +16,22 @@ const DarkSection = ({
     >
       <div className="container pt-4 pb-4">
         <div className="pt-4 pb-5">
-          <SectionTitle
-            title={sectionTitle}
-            pageNo={sectionPage}
-            borderColor="#FFF"
-          />
+          {sectionTitle ? (
+            <SectionTitle
+              title={sectionTitle}
+              pageNo={sectionPage}
+              borderColor="#FFF"
+            />
+          ) : null}
+
           <div className="row mt-4 pt-2" style={{ rowGap: 55 }}>
-            <div className="col-lg-6">{topicTitle ? topicTitle : null}</div>
-            <div className="col-lg-6">
-              <div className="dark-section-summary">{topicSummary}</div>
-            </div>
+            {topicTitle ? <div className="col-lg-6">{topicTitle}</div> : null}
+            {topicSummary ? (
+              <div className="col-lg-6">
+                <div className="dark-section-summary">{topicSummary}</div>
+              </div>
+            ) : null}
+
             {menu.map((item, index) => (
               <div className="col-lg-6" key={index}>
                 <div className="dark-section-no">{`0${index + 1}`}</div>
