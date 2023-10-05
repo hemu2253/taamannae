@@ -109,7 +109,7 @@ const Home = () => {
               <div style={{ display: "flex", alignItems: "center" }}>
                 <img
                   className="homes image-inner meta light-in-dark"
-                  src={`${assetsBasePath}meta-home.svg`}
+                  src={`${assetsBasePath}clock-work.png`}
                   alt=""
                 />
               </div>
@@ -129,7 +129,7 @@ const Home = () => {
               <div style={{ display: "flex", alignItems: "center" }}>
                 <img
                   className="homes image-inner mi-sched"
-                  src={`${assetsBasePath}mimain.svg`}
+                  src={`${assetsBasePath}home-seeker.png`}
                   alt=""
                 />
               </div>
@@ -154,7 +154,7 @@ const Home = () => {
               <div style={{ display: "flex", alignItems: "center" }}>
                 <img
                   className="homes image-inner finary light-in-dark"
-                  src={`${assetsBasePath}finhome.jpg`}
+                  src={`${assetsBasePath}bright-minds.png`}
                   alt=""
                 />
               </div>
