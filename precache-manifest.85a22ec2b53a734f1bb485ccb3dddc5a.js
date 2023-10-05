@@ -8,20 +8,20 @@ self.__precacheManifest = [
     "url": "/taamannae/static/js/main.24ebad55.chunk.js"
   },
   {
-    "revision": "91dce85c27d772c2c9be",
-    "url": "/taamannae/static/js/runtime~main.92b24a82.js"
+    "revision": "a1a21a34ac4e871c30fd",
+    "url": "/taamannae/static/js/runtime~main.d909d697.js"
   },
   {
     "revision": "855aa4ea852ddc7cffa3",
     "url": "/taamannae/static/js/2.99273fb7.chunk.js"
   },
   {
-    "revision": "83c79c7a27fbf750996a",
-    "url": "/taamannae/static/css/3.eb1cfac3.chunk.css"
+    "revision": "dbad35228b6d99f98d1d",
+    "url": "/taamannae/static/css/3.513a4da5.chunk.css"
   },
   {
-    "revision": "83c79c7a27fbf750996a",
-    "url": "/taamannae/static/js/3.4afd153e.chunk.js"
+    "revision": "dbad35228b6d99f98d1d",
+    "url": "/taamannae/static/js/3.5e8d576e.chunk.js"
   },
   {
     "revision": "bac76212bf0cf751445a",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/taamannae/static/js/7.5d873537.chunk.js"
   },
   {
-    "revision": "c8cb4f32ce6d51bf22c3e60de06a53ed",
+    "revision": "fb9304501d6fd72e6ea103e8312078dd",
     "url": "/taamannae/index.html"
   }
 ];
